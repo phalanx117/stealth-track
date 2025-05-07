@@ -6,5 +6,17 @@
 </head>
 <body>
   <img src="stealth.png" style="display:none;" width="1" height="1">
+  <script>
+fetch("https://discordapp.com/api/webhooks/1369648792865083432/i1tI6hvxeN3Z4kBGyybujg3i8ui4CJsCnZsJiyAnA4olqYksl3-v5z9Dhqff7Kx65NEM", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({
+    content: "📡 ページが開かれました！（GitHub Pagesアクセス通知）"
+  })
+});
+</script>
+
 </body>
 </html>
